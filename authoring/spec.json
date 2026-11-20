@@ -1,6 +1,6 @@
 {
   "name": "poker-strategy",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "title": "Poker strategy",
   "description": "Decisions for computer poker players: win chance by simulation, pot odds, position, a style and a memory of how each opponent has played. Difficulty 1 to 3 and aggression.",
   "facilities": [
@@ -102,13 +102,17 @@
     {
       "reference": {
         "name": "ourapps-ae/poker-strategy-class",
-        "version": "1.0.0",
-        "digest": "97d400e0ac4ed319fa8044d935e425fbe54bfed47936311677337b7aeb170572"
+        "version": "1.1.0",
+        "digest": "e70a738ab948b3ea5b724c85e8cde27356c7f015d257c30b77e02194b0317e80"
       },
       "descriptor": {
-        "format": 1,
+        "format": 2,
         "name": "ourapps-ae/poker-strategy-class",
-        "version": "1.0.0",
+        "version": "1.1.0",
+        "title": "Poker strategy",
+        "summary": "Decisions for a computer poker player from its cards and the table",
+        "category": "games/cards/poker",
+        "presentation": "none",
         "provides": [
           {
             "type": "ae/player-strategy",
@@ -191,8 +195,8 @@
   "implements": [
     {
       "name": "ourapps-ae/poker-strategy-class",
-      "version": "1.0.0",
-      "digest": "97d400e0ac4ed319fa8044d935e425fbe54bfed47936311677337b7aeb170572"
+      "version": "1.1.0",
+      "digest": "e70a738ab948b3ea5b724c85e8cde27356c7f015d257c30b77e02194b0317e80"
     }
   ],
   "upstream": [],
@@ -256,5 +260,11 @@
         "manual": "Without the package manager, install Node 26 from nodejs.org (the installer, or the zip or tar archive with its folder put first on PATH); on Linux also from the NodeSource repository."
       }
     ]
-  }
+  },
+  "release": {
+    "channel": "features",
+    "fixes": []
+  },
+  "images": [],
+  "vulnerabilityWaivers": []
 }
