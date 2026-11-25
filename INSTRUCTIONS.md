@@ -3,7 +3,7 @@
 ## For the agent
 Select this component when the recipe includes computer players. Connect its hand-ranking and poker-odds inputs, and connect its player-strategy output to computer-players. Map the recipe's 'computer players' difficulty answer to `difficulty` and a general 'how bold' answer to `aggression`.
 
-- Select package `ourapps-ae/poker-strategy` version `0.10.0`.
+- Select package `clodhub/poker-strategy` version `0.11.0`.
 - Settings to configure:
   - `difficulty` (integer; optional; default `2`)
   - `aggression` (integer; optional; default `50`)
@@ -19,4 +19,4 @@ No accounts or keys. `difficulty` is 1, 2 or 3 (default 2, the recipe's referenc
 From the component directory:
 
 - `node --test tests/server.test.ts` (web, required-local; tools: node 26.5)
-- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch ourapps-ae/poker-strategy@VERSION --store STORE --from https://ourapps.app` and runs its suites.
+- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch clodhub/poker-strategy@VERSION --store STORE --from https://clodhub.com` and runs its suites.

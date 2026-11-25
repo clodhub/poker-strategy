@@ -84,7 +84,7 @@
           "$ref": "#/components/schemas/StrategySettings"
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -102,7 +102,7 @@
           "$ref": "#/components/schemas/StrategySettings"
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -743,7 +743,7 @@
         "required": [
           "winChance"
         ],
-        "x-ourapps-interface": "ae/poker-odds"
+        "x-clodhub-interface": "ae/poker-odds"
       },
       "Strategy": {
         "type": "object",
@@ -767,7 +767,7 @@
       }
     }
   },
-  "x-ourapps-modules": {
+  "x-clodhub-modules": {
     "server": "server/index.ts"
   }
 }

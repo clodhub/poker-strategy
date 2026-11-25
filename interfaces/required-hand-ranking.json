@@ -43,7 +43,7 @@
           "$ref": "#/components/schemas/HandRanking"
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -61,7 +61,7 @@
           "$ref": "#/components/schemas/CardCodes"
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -84,7 +84,7 @@
           "maxItems": 9
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -102,7 +102,7 @@
           "$ref": "#/components/schemas/CardCodes"
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -579,7 +579,7 @@
       "CardCodes": {
         "type": "object",
         "description": "Card-code tables and lookups: card-deck's `cardCodes` value.",
-        "x-ourapps-interface": "ae/card-deck",
+        "x-clodhub-interface": "ae/card-deck",
         "properties": {
           "ranks": {
             "type": "string"
@@ -641,7 +641,7 @@
       }
     }
   },
-  "x-ourapps-modules": {
+  "x-clodhub-modules": {
     "server": "server/index.ts"
   }
 }

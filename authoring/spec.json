@@ -1,6 +1,6 @@
 {
   "name": "poker-strategy",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "title": "Poker strategy",
   "description": "Decisions for computer poker players: win chance by simulation, pot odds, position, a style and a memory of how each opponent has played. Difficulty 1 to 3 and aggression.",
   "facilities": [
@@ -59,12 +59,12 @@
         "tests/server.test.ts"
       ],
       "tools": {
-        "node": "26.5.0"
+        "node": "26.5"
       }
     }
   ],
   "tools": {
-    "node": "26.5.0"
+    "node": "26.5"
   },
   "platforms": [
     "server"
@@ -101,13 +101,13 @@
   "classes": [
     {
       "reference": {
-        "name": "ourapps-ae/poker-strategy-class",
+        "name": "clodhub/poker-strategy-class",
         "version": "1.1.0",
-        "digest": "e70a738ab948b3ea5b724c85e8cde27356c7f015d257c30b77e02194b0317e80"
+        "digest": "07b6a8ae1ca8e684eb094b87afcee4db41735fde196c5735080c0cd3c4fd5769"
       },
       "descriptor": {
         "format": 2,
-        "name": "ourapps-ae/poker-strategy-class",
+        "name": "clodhub/poker-strategy-class",
         "version": "1.1.0",
         "title": "Poker strategy",
         "summary": "Decisions for a computer poker player from its cards and the table",
@@ -158,7 +158,7 @@
           },
           {
             "path": "classes/poker-strategy-class/player-strategy.json",
-            "digest": "2fc41faee431394460b3889c0dd4ab0c1032d962d85bcb82c412d2a46828704f"
+            "digest": "a121f002ad1b3a5e49df79a6b69ef90894212e2a7348fe588437f8621cd1e46b"
           },
           {
             "path": "classes/poker-strategy-class/runtime.mjs",
@@ -194,9 +194,9 @@
   ],
   "implements": [
     {
-      "name": "ourapps-ae/poker-strategy-class",
+      "name": "clodhub/poker-strategy-class",
       "version": "1.1.0",
-      "digest": "e70a738ab948b3ea5b724c85e8cde27356c7f015d257c30b77e02194b0317e80"
+      "digest": "07b6a8ae1ca8e684eb094b87afcee4db41735fde196c5735080c0cd3c4fd5769"
     }
   ],
   "upstream": [],
@@ -216,10 +216,10 @@
     "owners": [
       "Level N Ltd"
     ],
-    "contact": "https://github.com/ourapps-ae/poker-strategy/issues",
-    "repository": "https://github.com/ourapps-ae/poker-strategy",
+    "contact": "https://github.com/clodhub/poker-strategy/issues",
+    "repository": "https://github.com/clodhub/poker-strategy",
     "updates": {
-      "source": "https://github.com/ourapps-ae/poker-strategy/releases",
+      "source": "https://github.com/clodhub/poker-strategy/releases",
       "strategy": "manual"
     }
   },

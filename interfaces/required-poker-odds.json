@@ -50,7 +50,7 @@
           "$ref": "#/components/schemas/OddsSettings"
         }
       },
-      "x-ourapps-property": true,
+      "x-clodhub-property": true,
       "tags": [
         {
           "name": "typescript"
@@ -500,7 +500,7 @@
       "HandRanking": {
         "type": "object",
         "description": "The members of a hand-ranking's HandRanking object that odds reads; its card codes come from the card-deck the ranking was built with.",
-        "x-ourapps-interface": "ae/hand-ranking",
+        "x-clodhub-interface": "ae/hand-ranking",
         "properties": {
           "codes": {
             "type": "object",
@@ -529,7 +529,7 @@
       }
     }
   },
-  "x-ourapps-modules": {
+  "x-clodhub-modules": {
     "server": "server/index.ts"
   }
 }

@@ -7,12 +7,12 @@
   "focus": "component",
   "definitions": [
     {
-      "id": "ourapps-ae.poker-strategy",
+      "id": "clodhub.poker-strategy",
       "name": "Poker strategy",
       "kind": "component",
       "status": "example",
-      "package": "ourapps-ae/poker-strategy",
-      "version": "0.10.0",
+      "package": "clodhub/poker-strategy",
+      "version": "0.11.0",
       "ports": [
         {
           "id": "hand-ranking",
@@ -103,7 +103,7 @@
     {
       "id": "component",
       "name": "Poker strategy",
-      "definition": "ourapps-ae.poker-strategy",
+      "definition": "clodhub.poker-strategy",
       "configuration": {}
     },
     {
