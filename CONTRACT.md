@@ -6,7 +6,7 @@ Given what a computer player can see at its turn (its cards, the board, the pot,
 Facilities: `player-strategy` (Decide fold, check, call or bet for a computer player).
 
 ## User inputs
-The installer collects two optional integers:
+The installer collects two optional settings. `difficulty` is 1, 2 or 3 (default 2): 1 plays quickly and loosely, makes more mistakes and ignores how opponents play; 2 is the standard computer player; 3 thinks longer, makes fewer mistakes and plays steadier. `aggression` is a number from 0 to 100 (default 50): how readily the computer bets and raises rather than checks and calls; 0 is very passive, 100 bets whenever it can.
 
 - `difficulty` (integer; optional; default `2`)
 - `aggression` (integer; optional; default `50`)
