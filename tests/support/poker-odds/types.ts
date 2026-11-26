@@ -1,4 +1,4 @@
-// The part of the hand-ranking and card-deck interfaces that odds reads (ae/hand-ranking 1.0.0).
+// The part of the hand-ranking and card-deck interfaces that odds reads (com.clodhub/hand-ranking 1.0.0).
 export type Card = string;
 
 export type Evaluation = { score: number; category: string; ranks: number[]; name: string };

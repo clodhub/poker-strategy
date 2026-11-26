@@ -1,7 +1,7 @@
 {
   "openrpc": "1.3.2",
   "info": {
-    "title": "ae/player-strategy",
+    "title": "com.clodhub/player-strategy",
     "version": "1.0.0",
     "description": "Decisions for computer poker players: win chance by simulation, pot odds, position, a style (how tight, how aggressive, how often it bluffs) and a memory of how each opponent has played. Pure: the table state arrives as a DecisionInput, randomness as a function, the result is an action. TypeScript, `implementation/server/index.ts` (strategy.ts, types.ts). Build with createStrategy({odds}, settings); methods named `Strategy.<name>` are members of the object it returns. The computer-players form is newMemory, choose and observe; decide is choose without the player id."
   },
@@ -743,7 +743,7 @@
         "required": [
           "winChance"
         ],
-        "x-clodhub-interface": "ae/poker-odds"
+        "x-clodhub-interface": "com.clodhub/poker-odds"
       },
       "Strategy": {
         "type": "object",

@@ -1,6 +1,7 @@
 {
   "name": "poker-strategy",
-  "version": "0.11.0",
+  "version": "0.12.0",
+  "sourceRevision": "19905b75dbea89fbfd424d67fe26c81aaed0e018",
   "title": "Poker strategy",
   "description": "Decisions for computer poker players: win chance by simulation, pot odds, position, a style and a memory of how each opponent has played. Difficulty 1 to 3 and aggression.",
   "facilities": [
@@ -12,7 +13,7 @@
   "provides": [
     {
       "id": "player-strategy",
-      "type": "ae/player-strategy",
+      "type": "com.clodhub/player-strategy",
       "version": "1.0.0",
       "path": "interfaces/player-strategy.json"
     }
@@ -20,13 +21,13 @@
   "requires": [
     {
       "id": "hand-ranking",
-      "type": "ae/hand-ranking",
+      "type": "com.clodhub/hand-ranking",
       "version": "1.0.0",
       "path": "interfaces/required-hand-ranking.json"
     },
     {
       "id": "poker-odds",
-      "type": "ae/poker-odds",
+      "type": "com.clodhub/poker-odds",
       "version": "1.0.0",
       "path": "interfaces/required-poker-odds.json"
     }
@@ -101,13 +102,13 @@
   "classes": [
     {
       "reference": {
-        "name": "clodhub/poker-strategy-class",
+        "name": "pkg:clod/com.clodhub/poker-strategy-class",
         "version": "1.1.0",
-        "digest": "07b6a8ae1ca8e684eb094b87afcee4db41735fde196c5735080c0cd3c4fd5769"
+        "digest": "4c8235295b2477ecb7fcb2e6699e0d4d23a4ca6811a37f69c9cd6fa997f35d79"
       },
       "descriptor": {
-        "format": 2,
-        "name": "clodhub/poker-strategy-class",
+        "format": 3,
+        "name": "pkg:clod/com.clodhub/poker-strategy-class",
         "version": "1.1.0",
         "title": "Poker strategy",
         "summary": "Decisions for a computer poker player from its cards and the table",
@@ -115,7 +116,7 @@
         "presentation": "none",
         "provides": [
           {
-            "type": "ae/player-strategy",
+            "type": "com.clodhub/player-strategy",
             "version": "1.0.0",
             "path": "classes/poker-strategy-class/player-strategy.json",
             "modules": {
@@ -127,11 +128,11 @@
         ],
         "requires": [
           {
-            "type": "ae/hand-ranking",
+            "type": "com.clodhub/hand-ranking",
             "version": "1.0.0"
           },
           {
-            "type": "ae/poker-odds",
+            "type": "com.clodhub/poker-odds",
             "version": "1.0.0"
           }
         ],
@@ -158,11 +159,11 @@
           },
           {
             "path": "classes/poker-strategy-class/player-strategy.json",
-            "digest": "a121f002ad1b3a5e49df79a6b69ef90894212e2a7348fe588437f8621cd1e46b"
+            "digest": "514338f7b983908d3ff2f06610ba3258e218ecd9f6c723ad00914f6b5d814a35"
           },
           {
             "path": "classes/poker-strategy-class/runtime.mjs",
-            "digest": "7440f3891614c423f74668cb5a2445fea58bbfa4d7c740c8e8a855d1d9300d43"
+            "digest": "1d85f0dae92d5c6c859cd48a4211a933718ae3e168554a2b00806183c4b661f0"
           }
         ],
         "verification": [
@@ -194,9 +195,9 @@
   ],
   "implements": [
     {
-      "name": "clodhub/poker-strategy-class",
+      "name": "pkg:clod/com.clodhub/poker-strategy-class",
       "version": "1.1.0",
-      "digest": "07b6a8ae1ca8e684eb094b87afcee4db41735fde196c5735080c0cd3c4fd5769"
+      "digest": "4c8235295b2477ecb7fcb2e6699e0d4d23a4ca6811a37f69c9cd6fa997f35d79"
     }
   ],
   "upstream": [],

@@ -1,4 +1,4 @@
-// The part of the poker-odds interface that strategy reads (ae/poker-odds 1.0.0).
+// The part of the poker-odds interface that strategy reads (com.clodhub/poker-odds 1.0.0).
 export type Card = string;
 
 export type OddsLike = {

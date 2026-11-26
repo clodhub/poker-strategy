@@ -1,7 +1,7 @@
 {
   "openrpc": "1.3.2",
   "info": {
-    "title": "ae/hand-ranking",
+    "title": "com.clodhub/hand-ranking",
     "version": "1.0.0",
     "description": "The best five-card poker hand out of five to seven cards. A higher score wins; equal scores tie. TypeScript, `implementation/server/index.ts` (ranking.ts, codes.ts). Build a ranking with createHandRanking(codes) over card-deck's cardCodes, or use the ready-made handRanking; methods named `HandRanking.<name>` are members of that object."
   },
@@ -579,7 +579,7 @@
       "CardCodes": {
         "type": "object",
         "description": "Card-code tables and lookups: card-deck's `cardCodes` value.",
-        "x-clodhub-interface": "ae/card-deck",
+        "x-clodhub-interface": "com.clodhub/card-deck",
         "properties": {
           "ranks": {
             "type": "string"

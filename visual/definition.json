@@ -1,17 +1,17 @@
 {
-  "id": "clodhub.poker-strategy",
+  "id": "com.clodhub.poker-strategy",
   "name": "Poker strategy",
   "kind": "component",
   "status": "example",
-  "package": "clodhub/poker-strategy",
-  "version": "0.11.0",
+  "package": "pkg:clod/com.clodhub/poker-strategy",
+  "version": "0.12.0",
   "ports": [
     {
       "id": "hand-ranking",
       "name": "Hand ranking",
       "direction": "input",
       "kind": "interface",
-      "type": "ae/hand-ranking",
+      "type": "com.clodhub/hand-ranking",
       "version": "1.0.0",
       "required": true,
       "cardinality": "one"
@@ -21,7 +21,7 @@
       "name": "Poker odds",
       "direction": "input",
       "kind": "interface",
-      "type": "ae/poker-odds",
+      "type": "com.clodhub/poker-odds",
       "version": "1.0.0",
       "required": true,
       "cardinality": "one"
@@ -31,7 +31,7 @@
       "name": "Player strategy",
       "direction": "output",
       "kind": "interface",
-      "type": "ae/player-strategy",
+      "type": "com.clodhub/player-strategy",
       "version": "1.0.0"
     }
   ],
